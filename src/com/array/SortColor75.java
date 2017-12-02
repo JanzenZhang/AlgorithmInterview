@@ -5,7 +5,7 @@ public class SortColor75 {
     public void sortColors(int[] nums) {    //三路快排思路
 
         int zero = -1; //[0...zero]中都是0
-        int two = nums.length; //[two...n-1]中都是2
+        int two = nums.length; //[two...n-1]中都是2,其余区间都是1了
 
         for (int i = 0; i < two; ) {
 
